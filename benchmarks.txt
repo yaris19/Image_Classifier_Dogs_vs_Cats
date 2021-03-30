@@ -1,0 +1,85 @@
+without GPU
+	Epoch 1/5
+	582/582 [==============================] - 336s 569ms/step - loss: 0.4374 - accuracy: 0.7557 - val_loss: 0.0904 - val_accuracy: 0.9678
+	Epoch 2/5
+	582/582 [==============================] - 332s 568ms/step - loss: 0.0793 - accuracy: 0.9753 - val_loss: 0.0651 - val_accuracy: 0.9768
+	Epoch 3/5
+	582/582 [==============================] - 331s 567ms/step - loss: 0.0605 - accuracy: 0.9796 - val_loss: 0.0576 - val_accuracy: 0.9772
+	Epoch 4/5
+	582/582 [==============================] - 331s 567ms/step - loss: 0.0530 - accuracy: 0.9809 - val_loss: 0.0534 - val_accuracy: 0.9807
+	Epoch 5/5
+	582/582 [==============================] - 331s 566ms/step - loss: 0.0500 - accuracy: 0.9822 - val_loss: 0.0511 - val_accuracy: 0.9824
+	CPU times: user 51min 15s, sys: 57.6 s, total: 52min 12s
+	Wall time: 27min 41s
+
+with GPU
+	Epoch 1/5
+	582/582 [==============================] - 87s 141ms/step - loss: 0.3747 - accuracy: 0.7937 - val_loss: 0.0922 - val_accuracy: 0.9652
+	Epoch 2/5
+	582/582 [==============================] - 83s 139ms/step - loss: 0.0811 - accuracy: 0.9724 - val_loss: 0.0644 - val_accuracy: 0.9764
+	Epoch 3/5
+	582/582 [==============================] - 82s 138ms/step - loss: 0.0610 - accuracy: 0.9784 - val_loss: 0.0564 - val_accuracy: 0.9789
+	Epoch 4/5
+	582/582 [==============================] - 81s 136ms/step - loss: 0.0534 - accuracy: 0.9811 - val_loss: 0.0521 - val_accuracy: 0.9807
+	Epoch 5/5
+	582/582 [==============================] - 81s 136ms/step - loss: 0.0501 - accuracy: 0.9821 - val_loss: 0.0497 - val_accuracy: 0.9819
+	CPU times: user 7min 1s, sys: 34.6 s, total: 7min 36s
+	Wall time: 6min 55s
+
+
+light images, learning rate 0.0001:
+	Epoch 1/5
+	582/582 [==============================] - 84s 87ms/step - loss: 0.4192 - accuracy: 0.7806 - val_loss: 0.1069 - val_accuracy: 0.9617
+	Epoch 2/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0995 - accuracy: 0.9643 - val_loss: 0.0792 - val_accuracy: 0.9721
+	Epoch 3/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0789 - accuracy: 0.9703 - val_loss: 0.0699 - val_accuracy: 0.9746
+	Epoch 4/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0710 - accuracy: 0.9729 - val_loss: 0.0654 - val_accuracy: 0.9759
+	Epoch 5/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0666 - accuracy: 0.9742 - val_loss: 0.0625 - val_accuracy: 0.9764
+	CPU times: user 5min 7s, sys: 20 s, total: 5min 27s
+	Wall time: 4min 47s
+
+dark images, learning rate 0.0001:
+	Epoch 1/5
+	582/582 [==============================] - 57s 92ms/step - loss: 0.0294 - accuracy: 0.9894 - val_loss: 0.0415 - val_accuracy: 0.9858
+	Epoch 2/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0290 - accuracy: 0.9893 - val_loss: 0.0416 - val_accuracy: 0.9854
+	Epoch 3/5
+	582/582 [==============================] - 54s 90ms/step - loss: 0.0288 - accuracy: 0.9897 - val_loss: 0.0418 - val_accuracy: 0.9854
+	Epoch 4/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0286 - accuracy: 0.9900 - val_loss: 0.0418 - val_accuracy: 0.9858
+	Epoch 5/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0288 - accuracy: 0.9901 - val_loss: 0.0419 - val_accuracy: 0.9854
+	CPU times: user 5min 23s, sys: 20.9 s, total: 5min 43s
+	Wall time: 4min 30s
+
+light images, training rate 0.001
+	Epoch 1/5
+	582/582 [==============================] - 54s 86ms/step - loss: 0.1377 - accuracy: 0.9432 - val_loss: 0.0602 - val_accuracy: 0.9764
+	Epoch 2/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0615 - accuracy: 0.9760 - val_loss: 0.0557 - val_accuracy: 0.9781
+	Epoch 3/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0551 - accuracy: 0.9804 - val_loss: 0.0542 - val_accuracy: 0.9815
+	Epoch 4/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0498 - accuracy: 0.9824 - val_loss: 0.0547 - val_accuracy: 0.9807
+	Epoch 5/5
+	582/582 [==============================] - 51s 85ms/step - loss: 0.0487 - accuracy: 0.9827 - val_loss: 0.0558 - val_accuracy: 0.9807
+	CPU times: user 5min 4s, sys: 18.6 s, total: 5min 22s
+	Wall time: 4min 16s
+	
+dak images, learning rate 0.001
+	Epoch 1/5
+	582/582 [==============================] - 57s 91ms/step - loss: 0.1061 - accuracy: 0.9594 - val_loss: 0.0455 - val_accuracy: 0.9832
+	Epoch 2/5
+	582/582 [==============================] - 54s 89ms/step - loss: 0.0438 - accuracy: 0.9846 - val_loss: 0.0444 - val_accuracy: 0.9802
+	Epoch 3/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0384 - accuracy: 0.9869 - val_loss: 0.0420 - val_accuracy: 0.9845
+	Epoch 4/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0368 - accuracy: 0.9870 - val_loss: 0.0424 - val_accuracy: 0.9850
+	Epoch 5/5
+	582/582 [==============================] - 53s 89ms/step - loss: 0.0339 - accuracy: 0.9885 - val_loss: 0.0415 - val_accuracy: 0.9850
+	CPU times: user 5min 22s, sys: 20.3 s, total: 5min 42s
+	Wall time: 4min 30s
+	
